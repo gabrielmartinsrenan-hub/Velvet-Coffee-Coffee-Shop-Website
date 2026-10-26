@@ -1,0 +1,61 @@
+/* VELVET COFFEE — NIGHT SHIFT THEME
+   Add this stylesheet AFTER styles.css to activate the redesign.
+   Dark espresso, electric lime accents, editorial typography. */
+:root{--cream:#111714;--ink:#f4f2e9;--brown:#c6f36b;--orange:#c6f36b;--line:#38463b}
+body{background:#111714;color:#f4f2e9}
+::selection{background:#c6f36b;color:#111714}
+:focus-visible{outline:3px solid #c6f36b;outline-offset:4px}
+.site-header{position:absolute;background:linear-gradient(#101713d9,transparent)}
+.nav{height:100px;border-bottom:1px solid #ffffff36}
+.brand{font-weight:700;letter-spacing:-.04em;font-size:24px}
+.brand:first-letter{color:#c6f36b}
+.brand span{color:#c6f36b;font-weight:700}
+.nav-links{gap:28px;text-transform:uppercase;letter-spacing:.08em;font-size:11px}
+.nav-cta{border:1px solid #c6f36b;color:#c6f36b;border-radius:0;padding:14px 20px;transition:.25s}
+.nav-cta:hover{background:#c6f36b;color:#111714}
+.hero{min-height:700px;height:90vh;background-image:url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=2000&q=85');background-position:center 55%}
+.hero-shade{background:linear-gradient(90deg,#07110df2 0%,#0c1811b8 50%,#07110d40 100%)}
+.hero-content{padding-top:clamp(190px,23vh,260px)}
+.eyebrow,.section-kicker{color:#c6f36b;letter-spacing:.3em}
+.hero h1,h2,.menu-card h3{font-family:'DM Sans',sans-serif;font-weight:700;letter-spacing:-.075em}
+.hero h1{font-size:clamp(62px,8.5vw,130px);line-height:.96;text-transform:uppercase}
+.hero h1 em,h2 em{color:#c6f36b;font-style:normal}
+.hero-content>p{color:#d2ded3;max-width:490px}
+.btn{background:#c6f36b;color:#111714;border:1px solid #c6f36b;border-radius:0;text-transform:uppercase;letter-spacing:.07em;transition:transform .25s,background .25s}
+.btn:hover{background:#e0ffa5;transform:translateY(-4px)}
+.text-link{border-color:#c6f36b;color:#e4f9c0}
+.hero-side{color:#c6f36b}
+.section{padding-top:130px;padding-bottom:130px}
+.intro h2,.section-heading h2,.visit h2{font-size:clamp(44px,6vw,82px);line-height:1.02;text-transform:uppercase}
+.intro h2 em,.section-heading h2 em,.visit h2 em{color:#c6f36b}
+.intro-copy p,.section-heading p,.visit>div>p{color:#bbc7bb}
+.underlined{border-color:#c6f36b;color:#c6f36b}
+.feature-grid{gap:14px}
+.feature-image{height:480px;filter:saturate(.75);transition:filter .35s,transform .35s;overflow:hidden}
+.feature-image:hover{filter:saturate(1.15);transform:translateY(-5px)}
+.feature-image span{font-size:13px;letter-spacing:.14em}
+.menu-section{background:#1b2620;margin-top:120px}
+.filters{gap:12px}
+.filter{color:#e6eee3;border-color:#556653;border-radius:0;text-transform:uppercase;letter-spacing:.08em;font-size:11px}
+.filter.active,.filter:hover{background:#c6f36b;border-color:#c6f36b;color:#101712}
+.menu-grid{gap:18px}
+.menu-card{background:#27352b;border:1px solid #405244;transition:transform .3s,border-color .3s}
+.menu-card:hover{transform:translateY(-7px);border-color:#c6f36b}
+.menu-card img{height:250px;filter:saturate(.82)}
+.menu-card h3{font-size:24px;letter-spacing:-.05em}
+.menu-card strong{color:#c6f36b}
+.menu-card p,.menu-note{color:#b7c4b5}
+.quote-section{background:#c6f36b;color:#101712;padding:125px 20px}
+.quote-section span{color:#34452c;font-weight:700}
+.quote-section h2{text-transform:uppercase;font-size:clamp(56px,8vw,112px);letter-spacing:-.085em}
+.quote-section h2 em{font-style:normal;text-decoration:underline;text-decoration-thickness:5px;text-underline-offset:10px}
+.quote-section .btn{background:#101712;color:#c6f36b;border-color:#101712}
+.quote-section .btn:hover{background:#34452c}
+.visit-details strong{color:#c6f36b;text-transform:uppercase;letter-spacing:.1em}
+.visit-details span,.visit-details a,.visit small{color:#b7c4b5}
+.visit-image{filter:saturate(.75);box-shadow:18px 18px 0 #314b32}
+footer{background:#080f0b;border-top:1px solid #354a38}
+.footer-inner p,.footer-inner>span{color:#a5b4a7}
+@media(max-width:800px){.nav{height:78px}.nav-links{background:#101b13}.menu-toggle{color:#c6f36b}.section{padding-top:85px;padding-bottom:85px}.feature-image{height:310px}.menu-section{margin-top:75px}.visit-image{box-shadow:10px 10px 0 #314b32}}
+@media(max-width:530px){.hero{min-height:620px}.hero h1{font-size:clamp(50px,12vw,70px)}.hero-content{padding-top:200px}.feature-image{height:330px}.quote-section{padding:90px 16px}.quote-section h2{font-size:54px}.menu-card img{height:240px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
